@@ -14,7 +14,7 @@ app.use(express.static('public'));
 
 
 app.get('/api/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '/db/db.json'))
+    res.sendFile(path.join(__dirname, './db/db.json'))
 });
 
 app.post('/api/notes', (req, res) => {
@@ -35,7 +35,7 @@ app.delete('./api/notes/:id', (req, res) => {
 }) 
 
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, '/public/notes.html'));
+    res.sendFile(path.join(__dirname, 'notes.html'));
 });
 
 app.listen(PORT, function () {
