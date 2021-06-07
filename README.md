@@ -1,3 +1,3 @@
-# Note Taker Starter Code
+# Note Taker 
 
 https://bryantuwagbale.github.io/miniature-eureka/
